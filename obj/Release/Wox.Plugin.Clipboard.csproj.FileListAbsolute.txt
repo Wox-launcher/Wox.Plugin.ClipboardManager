@@ -1,0 +1,6 @@
+E:\github\Wox\Output\Release\Plugins\Wox.Plugin.Clipboard\Images\clipboard.png
+E:\github\Wox\Output\Release\Plugins\Wox.Plugin.Clipboard\plugin.json
+E:\github\Wox\Output\Release\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.dll
+E:\github\Wox\Output\Release\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.pdb
+E:\github\Wox\Plugins\Wox.Plugin.Clipboard\obj\Release\Wox.Plugin.Clipboard.dll
+E:\github\Wox\Plugins\Wox.Plugin.Clipboard\obj\Release\Wox.Plugin.Clipboard.pdb

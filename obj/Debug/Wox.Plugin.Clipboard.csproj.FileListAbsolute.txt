@@ -1,0 +1,11 @@
+e:\github\Wox\Debug\Plugins\Wox.Plugin.Clipboard\Images\clipboard.png
+e:\github\Wox\Debug\Plugins\Wox.Plugin.Clipboard\plugin.json
+e:\github\Wox\Debug\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.dll
+e:\github\Wox\Debug\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.pdb
+e:\github\Wox\Plugins\Wox.Plugin.Clipboard\obj\Debug\Wox.Plugin.Clipboard.csprojResolveAssemblyReference.cache
+e:\github\Wox\Plugins\Wox.Plugin.Clipboard\obj\Debug\Wox.Plugin.Clipboard.dll
+e:\github\Wox\Plugins\Wox.Plugin.Clipboard\obj\Debug\Wox.Plugin.Clipboard.pdb
+e:\github\Wox\Output\Debug\Plugins\Wox.Plugin.Clipboard\Images\clipboard.png
+e:\github\Wox\Output\Debug\Plugins\Wox.Plugin.Clipboard\plugin.json
+e:\github\Wox\Output\Debug\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.dll
+e:\github\Wox\Output\Debug\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.pdb
