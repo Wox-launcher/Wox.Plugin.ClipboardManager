@@ -9,3 +9,9 @@ e:\github\Wox\Output\Debug\Plugins\Wox.Plugin.Clipboard\Images\clipboard.png
 e:\github\Wox\Output\Debug\Plugins\Wox.Plugin.Clipboard\plugin.json
 e:\github\Wox\Output\Debug\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.dll
 e:\github\Wox\Output\Debug\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.pdb
+d:\Output\Debug\Plugins\Wox.Plugin.Clipboard\Images\clipboard.png
+d:\Output\Debug\Plugins\Wox.Plugin.Clipboard\plugin.json
+d:\Output\Debug\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.dll
+d:\Output\Debug\Plugins\Wox.Plugin.Clipboard\Wox.Plugin.Clipboard.pdb
+d:\Personal\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.dll
+d:\Personal\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.pdb
