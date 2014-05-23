@@ -2,9 +2,9 @@
     "ID":"D2D2C23B084D411DB66FE0C79D6C2A6C",
     "ActionKeyword":"cb",
     "Name":"Clipboard History Manager",
-    "Description":"With this plugin, you can search your clipboard history. I suggest your set a hotkey for this plugin.",
+    "Description":"With this plugin, you can search your clipboard history. I suggest you setting a hotkey for this plugin.",
     "Author":"qianlifeng",
-    "Version":"1.0",
+    "Version":"1.0.0.1",
     "Language":"csharp",
     "Website":"https://github.com/qianlifeng/Wox.Plugin.ClipboardManager",
     "ExecuteFileName":"Wox.Plugin.Clipboard.dll"
