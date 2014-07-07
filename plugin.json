@@ -4,7 +4,7 @@
     "Name":"Clipboard History",
     "Description":"clipboard history search",
     "Author":"qianlifeng",
-    "Version":"1.1",
+    "Version":"1.0.0.2",
     "Language":"csharp",
     "Website":"https://github.com/qianlifeng/Wox.Plugin.ClipboardManager",
     "ExecuteFileName":"Wox.Plugin.Clipboard.dll",
