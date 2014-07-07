@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Windows.Forms;
@@ -41,10 +42,18 @@ namespace Wox.Plugin.Clipboard
                     }
                     else
                     {
-                        System.Windows.Forms.Clipboard.SetText(o);
-                        context.HideApp();
-                        keyboardSimulator.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.VK_V);
-                        return true;
+                        try
+                        {
+                            System.Windows.Forms.Clipboard.SetText(o);
+                            context.HideApp();
+                            keyboardSimulator.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.VK_V);
+                            return true;
+                        }
+                        catch(Exception e)
+                        {
+                            context.ShowMsg("Error", e.Message, null);
+                            return false;
+                        }
                     }
                 }
             }).Reverse());
