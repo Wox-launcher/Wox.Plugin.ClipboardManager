@@ -10,7 +10,7 @@ namespace Wox.Plugin.Clipboard
 {
     public class Main : IPlugin
     {
-        private const int MaxDataCount = 100;
+        private const int MaxDataCount = 300;
         private readonly KeyboardSimulator keyboardSimulator = new KeyboardSimulator(new InputSimulator());
         private PluginInitContext context;
         List<string> dataList = new List<string>();
@@ -18,7 +18,7 @@ namespace Wox.Plugin.Clipboard
         public List<Result> Query(Query query)
         {
             var results = new List<Result>();
-            List<string> displayData = new List<string>();
+            List<string> displayData;
             if (query.ActionParameters.Count == 0)
             {
                 displayData = dataList;
@@ -31,29 +31,21 @@ namespace Wox.Plugin.Clipboard
 
             results.AddRange(displayData.Select(o => new Result
             {
-                Title = o,
+                Title = o.Trim(),
                 IcoPath = "Images\\clipboard.png",
                 Action = c =>
                 {
-                    if (c.SpecialKeyState.CtrlPressed)
+                    try
                     {
-                        context.ShowCurrentResultItemTooltip(o);
-                        return false;
+                        System.Windows.Forms.Clipboard.SetText(o);
+                        context.API.HideApp();
+                        keyboardSimulator.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.VK_V);
+                        return true;
                     }
-                    else
+                    catch (Exception e)
                     {
-                        try
-                        {
-                            System.Windows.Forms.Clipboard.SetText(o);
-                            context.HideApp();
-                            keyboardSimulator.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.VK_V);
-                            return true;
-                        }
-                        catch(Exception e)
-                        {
-                            context.ShowMsg("Error", e.Message, null);
-                            return false;
-                        }
+                        context.API.ShowMsg("Error", e.Message, null);
+                        return false;
                     }
                 }
             }).Reverse());
@@ -74,7 +66,7 @@ namespace Wox.Plugin.Clipboard
                 format == ClipboardFormat.Text ||
                 format == ClipboardFormat.UnicodeText)
             {
-                if (data != null && !string.IsNullOrEmpty(data.ToString()))
+                if (data != null && !string.IsNullOrEmpty(data.ToString().Trim()))
                 {
                     if (dataList.Contains(data.ToString()))
                     {
@@ -84,7 +76,7 @@ namespace Wox.Plugin.Clipboard
 
                     if (dataList.Count > MaxDataCount)
                     {
-                        dataList.Remove(dataList.First());
+                        dataList.Remove(dataList.Last());
                     }
                 }
             }

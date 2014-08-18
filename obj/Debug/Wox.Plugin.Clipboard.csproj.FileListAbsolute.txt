@@ -31,3 +31,13 @@ e:\github\Wox.Plugin.ClipboardManager\bin\WindowsInput.dll
 e:\github\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.dll
 e:\github\Wox.Plugin.ClipboardManager\bin\WindowsInput.xml
 e:\github\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.pdb
+d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\Images\clipboard.png
+d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\plugin.json
+d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.Clipboard.dll
+d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.Clipboard.pdb
+d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\WindowsInput.dll
+d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.dll
+d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\WindowsInput.xml
+d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.pdb
+d:\Personal\Github\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.dll
+d:\Personal\Github\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.pdb
