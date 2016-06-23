@@ -145,14 +145,14 @@ namespace Wox.Plugin.Clipboard
 
     public enum ClipboardFormat : byte
     {
-        /// <summary>Specifies the standard ANSI text format. This static field is read-only.
-        /// </summary>
-        /// <filterpriority>1</filterpriority>
-        Text,
         /// <summary>Specifies the standard Windows Unicode text format. This static field
         /// is read-only.</summary>
         /// <filterpriority>1</filterpriority>
         UnicodeText,
+        /// <summary>Specifies the standard ANSI text format. This static field is read-only.
+        /// </summary>
+        /// <filterpriority>1</filterpriority>
+        Text,
         /// <summary>Specifies the Windows device-independent bitmap (DIB) format. This static
         /// field is read-only.</summary>
         /// <filterpriority>1</filterpriority>
