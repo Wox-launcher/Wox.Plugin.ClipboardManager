@@ -39,11 +39,11 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="WindowsInput">
+    <Reference Include="WindowsInput, Version=1.0.4.0, Culture=neutral, PublicKeyToken=9b287f7dc5073cad, processorArchitecture=MSIL">
       <HintPath>packages\InputSimulator.1.0.4.0\lib\net20\WindowsInput.dll</HintPath>
     </Reference>
-    <Reference Include="Wox.Plugin">
-      <HintPath>..\Wox\Output\Debug\Wox.Plugin.dll</HintPath>
+    <Reference Include="Wox.Plugin, Version=1.2.0.486, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\Wox.Plugin.1.2.0.486\lib\net35\Wox.Plugin.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -61,6 +61,9 @@
     <Content Include="Images\clipboard.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

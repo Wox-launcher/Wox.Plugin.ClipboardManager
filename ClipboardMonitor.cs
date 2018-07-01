@@ -117,26 +117,35 @@ namespace Wox.Plugin.Clipboard
 
             private void ClipChanged()
             {
-                IDataObject iData = System.Windows.Forms.Clipboard.GetDataObject();
-
+                IDataObject iData = null;
                 ClipboardFormat? format = null;
 
-                foreach (var f in formats)
+                try
                 {
-                    if (iData.GetDataPresent(f))
+                    iData = System.Windows.Forms.Clipboard.GetDataObject();
+
+                    foreach (var f in formats)
                     {
-                        format = (ClipboardFormat)Enum.Parse(typeof(ClipboardFormat), f);
-                        break;
+                        if (iData.GetDataPresent(f))
+                        {
+                            format = (ClipboardFormat)Enum.Parse(typeof(ClipboardFormat), f);
+                            break;
+                        }
                     }
+
+                    object data = iData.GetData(format.ToString());
+
+                    if (data == null || format == null)
+                        return;
+
+                    if (OnClipboardChange != null)
+                        OnClipboardChange((ClipboardFormat)format, data);
                 }
-
-                object data = iData.GetData(format.ToString());
-
-                if (data == null || format == null)
-                    return;
-
-                if (OnClipboardChange != null)
-                    OnClipboardChange((ClipboardFormat)format, data);
+                catch (ExternalException ex)
+                {
+                    // The internal implements will raise the ExternalExcption 
+                    // when the clipboard is being used by the another process.
+                }
             }
 
 
