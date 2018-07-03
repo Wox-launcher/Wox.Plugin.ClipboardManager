@@ -41,3 +41,14 @@ d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\WindowsInput.xml
 d:\Personal\Github\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.pdb
 d:\Personal\Github\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.dll
 d:\Personal\Github\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.pdb
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\bin\Images\clipboard.png
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\bin\plugin.json
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.Clipboard.dll
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.Clipboard.pdb
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\bin\WindowsInput.dll
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\bin\Wox.Plugin.dll
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\bin\WindowsInput.xml
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.csproj.CoreCompileInputs.cache
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.csproj.CopyComplete
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.dll
+C:\Users\Yu\Cabinet\Sources\CS\Wox.Plugin.ClipboardManager\obj\Debug\Wox.Plugin.Clipboard.pdb
