@@ -117,7 +117,18 @@ namespace Wox.Plugin.Clipboard
 
             private void ClipChanged()
             {
-                IDataObject iData = System.Windows.Forms.Clipboard.GetDataObject();
+                IDataObject iData = null;
+                try
+                {
+                    iData = System.Windows.Forms.Clipboard.GetDataObject();
+                }
+                catch (ExternalException)
+                {
+                    // The internal implements will raise the ExternalExcption 
+                    // when the clipboard is being used by the another process.
+                    return;
+                }
+
 
                 ClipboardFormat? format = null;
 
