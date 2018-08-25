@@ -124,11 +124,10 @@ namespace Wox.Plugin.Clipboard
                 }
                 catch (ExternalException)
                 {
-                    // The internal implements will raise the ExternalExcption 
+                    // The internal implements will raise the ExternalExcption
                     // when the clipboard is being used by the another process.
                     return;
                 }
-
 
                 ClipboardFormat? format = null;
 
