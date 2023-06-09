@@ -76,7 +76,7 @@ namespace Wox.Plugin.Clipboard
 
                     if (dataList.Count > MaxDataCount)
                     {
-                        dataList.Remove(dataList.Last());
+                        dataList.Remove(dataList.First());
                     }
                 }
             }
